@@ -365,7 +365,7 @@ ggplot(
 ) + geom_point(size=1) + scale_colour_manual(values=c("red","blue")) + ggtitle("Alpha Rarefaction") + theme(panel.grid.major=element_blank(),panel.grid.minor=element_blank()) 
 
 ##Rarefied Diversity Table
-Analysis<-WTF_Layers
+Analysis<-WTF
 set.seed(42)
 rarefied_analysis = rarefy_even_depth(Analysis)
 rarefied_analysis<-Analysis
